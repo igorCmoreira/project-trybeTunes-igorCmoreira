@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Carregamento from '../pages/Carregamento';
 import * as userAPI from '../services/userAPI';
 
@@ -29,6 +30,11 @@ export default class Header extends React.Component {
     return (
       <header data-testid="header-component">
         <div>
+          <section>
+            <Link to="/search" data-testid="link-to-search">Pesquisa</Link>
+            <Link to="/favorites" data-testid="link-to-favorites">Favoritos</Link>
+            <Link to="profile" data-testid="link-to-profile">perfil</Link>
+          </section>
           {carregar ? <Carregamento /> : <p data-testid="header-user-name">{ user }</p> }
         </div>
       </header>
