@@ -5,7 +5,7 @@ class Search extends React.Component {
   constructor() {
     super();
     this.state = {
-      music: '',
+      pesquisa: '',
       enableBu: true,
     };
   }
@@ -18,7 +18,7 @@ class Search extends React.Component {
     } else {
       this.setState({ enableBu: true });
     }
-    this.setState({ music: value });
+    this.setState({ pesquisa: value });
   }
 
   render() {
