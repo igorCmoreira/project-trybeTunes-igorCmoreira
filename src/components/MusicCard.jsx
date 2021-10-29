@@ -15,6 +15,7 @@ export default class MusicCard extends React.Component {
     const { elemento } = this.props;
     this.setState({ carregar: true });
     await favoriteSongsAPI.addSong(elemento);
+    await favoriteSongsAPI.getFavoriteSongs();
     this.setState({ carregar: false });
   }
 
