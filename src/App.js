@@ -17,7 +17,7 @@ class App extends React.Component {
           => como o switch do react é comparavel com o do js colocarei,
            esta linha na utima posição */ }
           <Route exact path="/" component={ Login } />
-          <Route path="/album" component={ Album } />
+          <Route path="/album/:id" render={ (props) => <Album { ...props } /> } />
           <Route path="/favorites" component={ Favorites } />
           <Route exact path="/profile" component={ Profile } />
           <Route exact path="/profile/edit" component={ ProfileEdit } />
