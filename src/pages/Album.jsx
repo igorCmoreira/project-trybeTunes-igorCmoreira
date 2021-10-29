@@ -41,7 +41,12 @@ class Album extends React.Component {
         <section>
           {correctStart.map((data, i) => (
             <div key={ i }>
-              <MusicCard music={ data.previewUrl } track={ data.trackName } />
+              <MusicCard
+                music={ data.previewUrl }
+                trackName={ data.trackName }
+                trackId={ data.trackId }
+                elemento={ data }
+              />
             </div>
           ))}
         </section>
