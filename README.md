@@ -1,6 +1,6 @@
 # Boas vindas ao repositótio do projeto TrybeTunes!!
 
-data de entrga: 28/10/2021
+Data de entrga: 28/10/2021
 ---
 
 ## Habilidades exercitadas  neste projeto:
