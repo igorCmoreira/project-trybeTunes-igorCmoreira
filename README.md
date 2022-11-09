@@ -1,4 +1,8 @@
 # Boas vindas ao repositótio do projeto TrybeTunes!!
+
+data de entrga: 28/10/2021
+---
+
 ## Habilidades exercitadas  neste projeto:
  * Requisiçoes e consumo de dados vindos de uma `API`;
  * Uso dos ciclos de vida de um componente React;
